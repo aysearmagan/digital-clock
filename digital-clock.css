@@ -1,0 +1,52 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:url("assest/DSC01047.JPG");
+    background-size:cover;
+    background-position:center;
+    height: 100%;
+}
+
+
+
+.clock {
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color:rgba(219, 203, 27, 0.477);
+    width: 500px;
+    padding: 10px;
+
+
+}
+
+.digits{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+
+}
+
+.digits div{
+    width: 3rem;
+}
+
+.clock div{
+    background-color:rgba(151, 150, 132, 0.2);
+    position: relative;
+    margin: 15px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.separator{
+    width: 2rem;
+}
+.clock h1{
+    text-align: center;
+
+}
